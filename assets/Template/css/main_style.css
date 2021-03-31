@@ -1,0 +1,440 @@
+/*
+Theme Name:     FabTheme
+Version:        1.0
+Description:    Custom CSS
+*/
+/* 
+	All custom ids and classes used for the theme, starts with "fabtheme".
+	For documentation page, it uses "fabthemeDoc".
+*/
+/* TABLE OF CONTENTS */
+/*
+	1. body
+		1.1 #fabtheme-body
+	2. headlines
+		h1, h2, h3
+	3. headings
+		3.1 .fabtheme-headings
+	4. about
+		4.1 .fabtheme-about
+	5. services
+		5.1 .fabtheme-services-1
+		5.2 .fabtheme-services-2
+	6. count
+		6.1 .fabtheme-count
+	7. reviews
+		7.1 .fabtheme-reviews-1
+		7.2 .fabtheme-reviews-2
+		7.3 .fabtheme-reviews-3
+		7.4 .fabtheme-reviews-img
+	8. team
+		8.1 .fabtheme-team-1
+		8.2 .fabtheme-team-2
+	9. blog
+		9.1 .fabtheme-blog-1
+		9.2 .fabtheme-blog-2
+	10. video
+		10.1 .fabtheme-video
+	11. contact
+		11.1 .fabtheme-contact
+	12. newsletter
+		12.1 .fabtheme-newsletter
+	13. parallax
+		13.1 .fabtheme-parallax-1
+		13.2 .fabtheme-parallax-2
+		13.3 .fabtheme-parallax-3
+		13.4 .fabtheme-parallax-4
+	14. navigation
+		14.1 #fabtheme-navbar
+	15. link show
+		15.1 .fabtheme-link-show
+	16. links
+		16.1 .fabtheme-link-1
+		16.2 .fabtheme-link-2
+	17. tab
+		17.1 .fabtheme-tab
+	18. button
+		18.1 .fabtheme-button
+	19. card-columns
+		19.1 .fabtheme-card-columns
+	20. images zoom in
+		20.1 .fabtheme-zoom
+	21. scroll top
+		21.1 .fabtheme-scrolltop
+		21.2 .fabtheme-scroll
+		21.3 .fabtheme-scroll .fas
+	22. input
+		22.1 .fabtheme-field input
+	23. textarea
+		23.1 .fabtheme-field textarea
+	24. height of all elements
+		24.1 *
+	25. footer
+		25.1 #fabtheme-footer
+	26. documentation
+		26.1 .fabthemeDoc-scroll
+		26.2 .fabthemeDoc-pre
+		26.3 #fabthemeDoc-navbar
+		26.4 #fabthemeDoc-nav-pills
+		26.5 .fabthemeDoc-nav-link
+*/
+/* END OF TABLE OF CONTENTS */
+/* CUSTOM CSS */
+/* BODY */
+#fabtheme-body{
+	background-color: #343330;
+	color: #F3F3F3;
+	font-size: 18px;
+	height: 100vh;
+	font-family: 'Varela Round', sans-serif;
+}
+/* END OF BODY */
+/* HEADLINES */
+h1,h2,h3{
+	font-family: 'Black Han Sans', sans-serif;
+}
+/* END OF HEADLINES */
+/* HEADINGS */
+.fabtheme-headings{
+	background-color: #6d071a;
+	color: #F3F3F3;
+    border-right: 40px solid #4D5359;
+	word-wrap: break-word;
+}
+/* END OF HEADINGS */
+/* ABOUT */
+.fabtheme-about{
+	background-color: #684551;
+	color: #F3F3F3;
+	border-left: 40px solid #1B1524;
+}
+/* END OF ABOUT */
+/* SERVICES */
+.fabtheme-services-1{
+	background-color: #2E4057;
+	color: #F3F3F3;
+	border-right: 40px solid #0D1821;
+}
+.fabtheme-services-2{
+	background-color: #FCE694;
+	color: #000000;
+	border: 0;
+	border-radius: 0;
+}
+/* END OF SERVICES */
+/* COUNT */
+.fabtheme-count{
+	background-color: #343330;
+	color: #F3F3F3;
+    border-left: 40px solid #4D5359;
+	word-wrap: break-word;
+}
+/* END OF COUNT */
+/* REVIEWS */
+.fabtheme-reviews-1{
+	background-color: #343330;
+	color: #F3F3F3;
+    border-left: 40px solid #4D5359;
+}
+.fabtheme-reviews-2{
+	color: #F3F3F3;
+	padding: 0;
+	margin: 0;
+}
+.fabtheme-reviews-3{
+	color: #CFDBD5;
+}
+#reviews .fabtheme-reviews-img{
+    width: 120px;
+    height: 80px;
+}
+/* END OF REVIEWS */
+/* TEAM */
+.fabtheme-team-1{
+	background-color: #1F5673;
+	color: #F3F3F3;
+	border-right: 40px solid #60463B;
+}
+#team .fabtheme-team-2{
+	background-color: #FFFBFC;
+	color: #000000;
+	border: 0;
+	border-radius: 0;
+}
+/* END OF TEAM */
+/* BLOG */
+.fabtheme-blog-1{
+	background-color: #041F1E;
+	color: #F3F3F3;
+	border-left: 40px solid #702632;
+}
+.fabtheme-blog-2{
+	background-color: #041F1E;
+	color: #F3F3F3;
+	border: 0;
+	border-radius: 0;
+}
+/* END OF BLOG */
+/* VIDEO */
+.fabtheme-video{
+    height: auto;
+}
+/* END OF VIDEO */
+/* CONTACT */
+.fabtheme-contact{
+	background-color: #5E503F;
+	color: #F3F3F3;
+	border-left: 40px solid #432E36;
+}
+/* END OF CONTACT */
+/* NEWSLETTER */
+.fabtheme-newsletter{
+	background-color: #343330;
+	color: #F3F3F3;
+	border-right: 40px solid #4D5359;
+}
+/* END OF NEWSLETTER */
+/* PARALLAX */
+.fabtheme-parallax-1{
+	height: 100%;
+	background-image: url("../images/sport.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.fabtheme-parallax-2{
+	height: 100%;
+    background-image: url("https://www.desicomments.com/wp-content/uploads/2017/01/Sports-Day.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.fabtheme-parallax-3{
+	height: 100%;
+    background-image: url("../images/2.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.fabtheme-parallax-4{
+	height: 100%;
+    background-image: url("../images/3.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+/* END OF PARALLAX */
+/* NAVIGATION */
+#fabtheme-navbar{
+	background-color: #9C0D38;
+	color: #F3F3F3;
+}
+#fabtheme-navbar.solid{
+	background-color: #9C0D38;
+	color: #F3F3F3;
+	transition-delay: 0.2s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+}
+#fabtheme-navbar .fabtheme-nav-link{
+	color: #F3F3F3;
+}
+#fabtheme-navbar .fabtheme-nav-link:hover{
+	color: #DBDBDB;
+}
+/* END OF NAVIGATION */
+/* LINK SHOW */
+.fabtheme-link-show{
+    padding-top: 60px;
+    margin-top: -60px;
+}
+/* END OF LINK SHOW */
+/* LINKS */
+.fabtheme-link-1{
+	color: #343330;
+}
+.fabtheme-link-1:hover{
+	color: #1F5673;
+}
+.fabtheme-link-2{
+	color: #F3F3F3;
+}
+.fabtheme-link-2:hover{
+	color: #E8F7EE;
+}
+.fabtheme-link-3{
+	color: #F3F3F3;
+}
+.fabtheme-link-3:hover{
+	color: #E3EDE9;
+	text-decoration: none;
+}
+/* END OF LINKS */
+/* TAB */
+.fabtheme-tab .nav-link, .fabtheme-tab .show>.nav-link{
+	color: #F3F3F3;
+	border-radius: 0;
+}
+.fabtheme-tab .nav-link:hover, .fabtheme-tab .show>.nav-link{
+	color: #DBDBDB;
+	border-radius: 0;
+}
+.fabtheme-tab .nav-link.active, .fabtheme-tab .show>.nav-link{
+	background-color: #334E58;
+	color: #F3F3F3;
+	border-radius: 0;
+}
+/* END OF TAB */
+/* BUTTON */
+.fabtheme-button{
+	background-color: #B3001B;
+	color: #F3F3F3;
+	border-radius: 0;
+}
+.fabtheme-button:hover{
+	background-color: #1F0318;
+	color: #F3F3F3;
+}
+/* END OF BUTTON */
+/* CARD COLUMNS */
+@media (min-width: 576px){
+    .fabtheme-card-columns{
+        column-count: 1;
+    }
+	.card-count>.fabtheme-card-columns{
+        column-count: 1;
+    }
+}
+@media (min-width: 768px){
+    .fabtheme-card-columns{
+        column-count: 1;
+    }
+	.card-count>.fabtheme-card-columns{
+        column-count: 1;
+    }
+}
+@media (min-width: 992px){
+    .fabtheme-card-columns{
+        column-count: 3;
+    }
+	.card-count>.fabtheme-card-columns{
+        column-count: 4;
+    }
+}
+@media (min-width: 1200px){
+    .fabtheme-card-columns{
+        column-count: 3;
+    }
+	.card-count>.fabtheme-card-columns{
+        column-count: 4;
+    }
+}
+/* END OF CARD COLUMNS */
+/* IMAGES ZOOM IN */
+.fabtheme-zoom img {
+	width: 100%;
+	height: auto;
+	transition: all 0.5s ease-in-out;
+}
+.fabtheme-zoom:hover img {
+    transform: scale(1.1);
+}
+/* END OF IMAGES ZOOM IN */
+/* SCROLL TOP */
+.fabtheme-scrolltop{
+	display: none;
+	width: 100%;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+}
+.fabtheme-scroll{
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	background-color: #c0b1a8;
+	padding: 20px;
+	text-align: center;
+	margin: 0 0 0 0;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.fabtheme-scroll:hover{
+	transition: 0.5s;	
+}
+.fabtheme-scroll .fas{
+	font-size: 30px;
+	color: #000000;
+	margin-top: -5px;
+	margin-left: 1px;
+	transition: 0.5s;
+}
+/* END OF SCROLL TOP */
+/* INPUT */
+.fabtheme-field input{
+	border: 0;
+	border-radius: 0;
+}
+/* END OF INPUT */
+/* TEXTAREA */
+.fabtheme-field textarea{
+	border: 0;
+	border-radius: 0;
+}
+/* END OF TEXTAREA */
+/* HEIGHT OF ALL ELEMENTS */
+*{
+    min-height: 0.01px;
+}
+/* END OF HEIGHT OF ALL ELEMENTS */
+/* FOOTER */
+#fabtheme-footer{
+	background-color: #121420;
+	color: #F3F3F3;
+}
+/* END OF FOOTER */
+/* DOCUMENTATION */
+.fabthemeDoc-scroll{
+	position: relative;
+	height: 100vh;
+	overflow-y: scroll;
+}
+.fabthemeDoc-pre{
+	color: #DBDBDB;
+}
+#fabthemeDoc-navbar{
+	margin: 0;
+	padding: 0;
+}
+#fabthemeDoc-nav-pills{
+	background-color: #684551;
+	color: #F3F3F3;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	transition-delay: 0.2s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+}
+#fabthemeDoc-nav-pills .fabthemeDoc-nav-link{
+	background-color: #684551;
+	color: #F3F3F3;
+	border: 0;
+	border-radius: 0;
+}
+#fabthemeDoc-nav-pills .fabthemeDoc-nav-link:hover{
+	background-color: #1F0318;
+	color: #F3F3F3;
+}
+#fabthemeDoc-nav-pills .fabthemeDoc-nav-link.active,#fabthemeDoc-nav-pills .show>.fabthemeDoc-nav-link{
+	background-color: #041F1E;
+	color: #F3F3F3;
+	border-radius: 0;
+}
+/* END OF DOCUMENTATION */
+/* END OF CUSTOM CSS */
